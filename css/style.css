@@ -163,9 +163,9 @@ sub, sup { line-height: 0; }
 /*-------------------------------------------
 	Banner
 -------------------------------------------*/
-[role="banner"] h1 { padding: 1em 0 0; text-transform: uppercase; letter-spacing: 0.1em; font-size: 3.5rem; font-weight: 900; color: #182e4f; visibility: hidden; }
+[role="banner"] h1 { padding: 1em 0 0; text-transform: uppercase; letter-spacing: 0.1em; font-size: 4.8rem; font-weight: 900; color: #182e4f; visibility: hidden; }
 [role="banner"] h1:before { content: "On the Fly Consulting Team 26"; visibility: visible; display: block; }
-[role="banner"] h1:after { content: "Always Improvising"; visibility: visible; display: block; color: #aaa; letter-spacing: 0.5em; font-size: 1.4rem; font-weight: normal; margin: 0.5em 0 3em; color: rgba(24, 46, 79, 0.4); }
+[role="banner"] h1:after { content: "Always Adapting"; visibility: visible; display: block; color: #aaa; letter-spacing: 1.1em; font-size: 1.4rem; font-weight: normal; margin: 0.5em 0 3em; color: rgba(24, 46, 79, 0.4); }
 
 [role="banner"] h2 { visibility: hidden; display: none; text-transform: uppercase; font-weight: 400; color: rgba(41, 78, 134, 0.5); }
 [role="banner"] h2:after { content: "Come Fly With Us"; visibility: visible; display: block; }
@@ -240,7 +240,7 @@ sub, sup { line-height: 0; }
 /*-------------------------------------------
 	Requirements
 -------------------------------------------*/
-.aar h3:after { content: "After Action Reprot"; text-indent: -0.5em; }
+.aar h3:after { content: "After Action Report"; text-indent: -0.5em; }
 
 
 
@@ -308,166 +308,166 @@ footer { font-size: 1.3rem; }
 		.zen-translations a:hover, .zen-translations a:focus { background-position: -380px -285px; }
 
 
-@media screen and (min-width: 700px) {
+    @media screen and (min-width: 700px) {
 
-	body { background-attachment: fixed; background-position: 90% 80%; }
+    	body { background-attachment: fixed; background-position: 90% 80%; }
 
-	.intro:before { content: ""; display: block; width: 105px; height: 30px; position: fixed; top: 154px; left: 3%; background: transparent url(s/czg.svg) no-repeat -184px -99px; }
+    	.intro:before { content: ""; display: block; width: 105px; height: 30px; position: fixed; top: 154px; left: 3%; background: transparent url(s/czg.svg) no-repeat -184px -99px; }
 
-	[role="article"], [role="banner"], footer { padding: 0 30% 10em 10%; text-align: right; position: relative; }
-		[role="article"] h3, [role="banner"] h2 { position: absolute; top: -0.75em; left: 75%; width: 10em; text-align: left; font-size: 1.5rem; letter-spacing: 0; }
-		[role="article"] h3:after { position: absolute; top: 0; }
+    	[role="article"], [role="banner"], footer { padding: 0 30% 10em 10%; text-align: right; position: relative; }
+    		[role="article"] h3, [role="banner"] h2 { position: absolute; top: -0.75em; left: 75%; width: 10em; text-align: left; font-size: 1.5rem; letter-spacing: 0; }
+    		[role="article"] h3:after { position: absolute; top: 0; }
 
-	[role="banner"] { padding-top: 200px; padding-bottom: 3em; }
+    	[role="banner"] { padding-top: 200px; padding-bottom: 3em; }
 
-		[role="banner"] h1 { font-size: 4rem; letter-spacing: 0; line-height: 0.8; }
-		[role="banner"] h1:after { position: absolute; top: 15.7em; right: 30%; }
+    		[role="banner"] h1 { font-size: 4.8rem; letter-spacing: 0; line-height: 0.8; }
+    		[role="banner"] h1:after { position: absolute; top: 15.7em; right: 30%; }
 
-		[role="banner"] h2 { display: block; top: 8.1em; width: 3em; left: 75.5%; font-size: 1.1rem; line-height: 1; }
-		[role="banner"] h2:before { visibility: visible; content: "EST 2020"; display: block; position: fixed; top: -0.1em; bottom: 0; left: -0.5em; right: 0; margin: auto; /*right: 25%;*/ font-weight: 900; font-size: 50rem; color: rgba(0, 0, 0, 0.15); width: 100%; height: 2em; line-height: 1; transform: rotate(-90deg); -ms-transform: rotate(-90deg); /* IE 9 */ -webkit-transform: rotate(-90deg); /* Safari and Chrome */ -webkit-mask-image: url(i/denim-mask2.png); -o-mask-image: url(i/denim-mask2.png); -moz-mask-image: url(i/denim-mask2.png); mask-image: url(i/denim-mask2.png); }
+    		[role="banner"] h2 { display: block; top: 8.1em; width: 3em; left: 75.5%; font-size: 1.9rem; line-height: 1; }
+    		[role="banner"] h2:before { visibility: visible; content: "Est. 2020"; display: block; position: fixed; top: -0.1em; bottom: 0; left: -0.5em; right: 0; margin: auto; /*right: 25%;*/ font-weight: 900; font-size: 50rem; color: rgba(0, 0, 0, 0.15); width: 100%; height: 2em; line-height: 1; transform: rotate(-90deg); -ms-transform: rotate(-90deg); /* IE 9 */ -webkit-transform: rotate(-90deg); /* Safari and Chrome */ -webkit-mask-image: url(i/denim-mask2.png); -o-mask-image: url(i/denim-mask2.png); -moz-mask-image: url(i/denim-mask2.png); mask-image: url(i/denim-mask2.png); }
 
-		.summary p:nth-child(2) { background: yellow; position: relative; visibility: hidden; top: 2em; font-size: 1.4rem; }
+    		.summary p:nth-child(2) { background: yellow; position: relative; visibility: hidden; top: 2em; font-size: 1.4rem; }
 
-			.summary p:nth-child(2):before { content: ""; display: block; visibility: visible; position: absolute; right: 21em; top: -0.25em; background: transparent url(s/czg.svg) no-repeat -159px -1px; width: 6em; height: 30px; }
+    			.summary p:nth-child(2):before { content: ""; display: block; visibility: visible; position: absolute; right: 21em; top: -0.25em; background: transparent url(s/czg.svg) no-repeat -159px -1px; width: 6em; height: 30px; }
 
-			.summary p:nth-child(2):after { content: ""; display: block; visibility: visible; position: absolute; right: 14em; top: -0.25em; background: transparent url(s/czg.svg) no-repeat -277px 0; width: 6em; height: 30px; }
+    			.summary p:nth-child(2):after { content: ""; display: block; visibility: visible; position: absolute; right: 14em; top: -0.25em; background: transparent url(s/czg.svg) no-repeat -277px 0; width: 6em; height: 30px; }
 
-			.summary p:nth-child(2) a { visibility: visible; background: transparent url(s/czg.svg) no-repeat -376px -93px; width: 6em; height: 25px; text-indent: 100%; white-space: nowrap; overflow: hidden; display: block; position: absolute; top: 0; right: 7em; }
-			.summary p:nth-child(2) a:hover, .summary p:nth-child(2) a:focus { background-position: -396px -3px; text-indent: 0; background: none; }
+    			.summary p:nth-child(2) a { visibility: visible; background: transparent url(s/czg.svg) no-repeat -376px -93px; width: 6em; height: 25px; text-indent: 100%; white-space: nowrap; overflow: hidden; display: block; position: absolute; top: 0; right: 7em; }
+    			.summary p:nth-child(2) a:hover, .summary p:nth-child(2) a:focus { background-position: -396px -3px; text-indent: 0; background: none; }
 
-			.summary p:nth-child(2) a[href*="css"] { background-position: -472px -94px; right: 0; }
-			.summary p:nth-child(2) a[href*="css"]:hover, .summary p:nth-child(2) a[href*="css"]:focus { background-position: -512px -4px; }
+    			.summary p:nth-child(2) a[href*="css"] { background-position: -472px -94px; right: 0; }
+    			.summary p:nth-child(2) a[href*="css"]:hover, .summary p:nth-child(2) a[href*="css"]:focus { background-position: -512px -4px; }
 
-	.preamble { padding-top: 10em; }
-		.preamble h3 { top: 5.9em; }
+    	.preamble { padding-top: 10em; }
+    		.preamble h3 { top: 5.9em; }
 
-	.design-selection li { width: 23%; margin-bottom: 3em; padding-right: 2%; }
-	.design-selection li:nth-child(odd) { width: 23%; clear: none; padding-right: 2%; }
+    	.design-selection li { width: 23%; margin-bottom: 3em; padding-right: 2%; }
+    	.design-selection li:nth-child(odd) { width: 23%; clear: none; padding-right: 2%; }
 
-	.next { margin-right: 2em; margin-left: -0.4em; }
-	.viewall { margin-left: 0; }
+    	.next { margin-right: 2em; margin-left: -0.4em; }
+    	.viewall { margin-left: 0; }
 
-	footer { padding-bottom: 3em; margin-top: -5em; }
-}
-
-
-@media screen and (min-width: 1130px) {
-
-	[role="article"], [role="banner"] { padding-left: 25%; }
-
-	.design-selection { position: absolute; left: 5%; top: 30em; }
-		.design-selection ul { margin: 0; width: 100%; }
-			.design-selection li { float: none; width: 100% !important; padding: 0 !important; margin-bottom: 2em;}
-		.select:after { text-align: left; background-position: 0 bottom; padding: 0 0 2em; margin: 0 0 2em; }
-
-	.design-archives { position: absolute; left: 5%; top: 95em; }
-
-}
+    	footer { padding-bottom: 3em; margin-top: -5em; }
+    }
 
 
-@media screen and (min-width: 1130px) and (min-height: 1037px)  {
-	.design-selection, .design-archives { position: fixed; }
+    @media screen and (min-width: 1130px) {
 
-}
+    	[role="article"], [role="banner"] { padding-left: 25%; }
 
+    	.design-selection { position: absolute; left: 5%; top: 30em; }
+    		.design-selection ul { margin: 0; width: 100%; }
+    			.design-selection li { float: none; width: 100% !important; padding: 0 !important; margin-bottom: 2em;}
+    		.select:after { text-align: left; background-position: 0 bottom; padding: 0 0 2em; margin: 0 0 2em; }
 
+    	.design-archives { position: absolute; left: 5%; top: 95em; }
 
-/*-------------------------------------------
-	Animations
--------------------------------------------*/
-@-webkit-keyframes FADEY {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-.intro {
-	-webkit-animation-name: FADEY;
-	-webkit-animation-duration: 1s;
-	-webkit-animation-timing-function: ease-in-out;
-	-webkit-animation-iteration-count: 1;
-}
+    }
 
 
-[role="article"] {
-	-webkit-opacity: 0;
-	-webkit-animation-name: FADEY;
-	-webkit-animation-duration: 1s;
-	-webkit-animation-timing-function: ease-in-out;
-	-webkit-animation-delay: 0.5s;
-	-webkit-animation-fill-mode: forwards;
-	-webkit-animation-iteration-count: 1;
-}
+    @media screen and (min-width: 1130px) and (min-height: 1037px)  {
+    	.design-selection, .design-archives { position: fixed; }
 
-
-.design-selection, .design-archives {
-	-webkit-opacity: 0;
-	-webkit-animation-name: FADEY;
-	-webkit-animation-duration: 1s;
-	-webkit-animation-timing-function: ease-in-out;
-	-webkit-animation-delay: 1s;
-	-webkit-animation-fill-mode: forwards;
-	-webkit-animation-iteration-count: 1;
-}
-
-
-/*-------------------------------------------
-	IE, i.e. Internet Explorer (heh)
--------------------------------------------*/
-
-@media screen and (min-width:0\0) { /* IE9 and IE10 rule sets go here */
-
-   .main h3, .preamble h3, .select { visibility: visible; }
-   [role="banner"] h1 { visibility: visible; width: auto; display: block; }
-
-   .main h3:after, .preamble h3:after, .select:after { display: none; }
-   [role="banner"] h1:before { display: none; }
-
-}
-
-
-/* IE8 and below */
-.main h3, .preamble h3, .select { visibility: visible\9; font-size: 20px\9; }
-.main h3:after, .preamble h3:after, .select:after { display: none\9; }
-
-.page-wrapper { width: 800px\9; }
-.preamble { padding-top: 50px\9; margin-top: 50px\9; }
-
-h1 { font-size: 48px\9; text-transform: uppercase\9; margin: 0\9; padding-top: 30px\9;}
-h2 { font-size: 20px\9; }
-
-.next a, .previous a, .viewall a, .zen-resources a { background-image: url(i/czg.png)\9; }
+    }
 
 
 
-/* IE7 & below */
-.next a,
-.previous a,
-.viewall a,
-.zen-resources a {
-	*background: none;
-	*width: auto;
-	*height: auto;
-	*display: block;
-	*text-indent: 0;
-	*white-space: normal;
-	*overflow: visible;
-}
+    /*-------------------------------------------
+    	Animations
+    -------------------------------------------*/
+    @-webkit-keyframes FADEY {
+      0%   { opacity: 0; }
+      100% { opacity: 1; }
+    }
 
-.design-archives {
-	*position: static;
-	*margin-top: 30px;
-}
+    .intro {
+    	-webkit-animation-name: FADEY;
+    	-webkit-animation-duration: 1s;
+    	-webkit-animation-timing-function: ease-in-out;
+    	-webkit-animation-iteration-count: 1;
+    }
 
-.design-archives li {
-	*display: inline;
-	*margin-right: 20px;
-}
 
-.next {
-	*margin-right: 2em;
-	*margin-left: -0.4em;
-}
+    [role="article"] {
+    	-webkit-opacity: 0;
+    	-webkit-animation-name: FADEY;
+    	-webkit-animation-duration: 1s;
+    	-webkit-animation-timing-function: ease-in-out;
+    	-webkit-animation-delay: 0.5s;
+    	-webkit-animation-fill-mode: forwards;
+    	-webkit-animation-iteration-count: 1;
+    }
 
-.viewall {
-	*margin-left: 0;
-}
+
+    .design-selection, .design-archives {
+    	-webkit-opacity: 0;
+    	-webkit-animation-name: FADEY;
+    	-webkit-animation-duration: 1s;
+    	-webkit-animation-timing-function: ease-in-out;
+    	-webkit-animation-delay: 1s;
+    	-webkit-animation-fill-mode: forwards;
+    	-webkit-animation-iteration-count: 1;
+    }
+
+
+    /*-------------------------------------------
+    	IE, i.e. Internet Explorer (heh)
+    -------------------------------------------*/
+
+    @media screen and (min-width:0\0) { /* IE9 and IE10 rule sets go here */
+
+       .main h3, .preamble h3, .select { visibility: visible; }
+       [role="banner"] h1 { visibility: visible; width: auto; display: block; }
+
+       .main h3:after, .preamble h3:after, .select:after { display: none; }
+       [role="banner"] h1:before { display: none; }
+
+    }
+
+
+    /* IE8 and below */
+    .main h3, .preamble h3, .select { visibility: visible\9; font-size: 20px\9; }
+    .main h3:after, .preamble h3:after, .select:after { display: none\9; }
+
+    .page-wrapper { width: 800px\9; }
+    .preamble { padding-top: 50px\9; margin-top: 50px\9; }
+
+    h1 { font-size: 48px\9; text-transform: uppercase\9; margin: 0\9; padding-top: 30px\9;}
+    h2 { font-size: 20px\9; }
+
+    .next a, .previous a, .viewall a, .zen-resources a { background-image: url(i/czg.png)\9; }
+
+
+
+    /* IE7 & below */
+    .next a,
+    .previous a,
+    .viewall a,
+    .zen-resources a {
+    	*background: none;
+    	*width: auto;
+    	*height: auto;
+    	*display: block;
+    	*text-indent: 0;
+    	*white-space: normal;
+    	*overflow: visible;
+    }
+
+    .design-archives {
+    	*position: static;
+    	*margin-top: 30px;
+    }
+
+    .design-archives li {
+    	*display: inline;
+    	*margin-right: 20px;
+    }
+
+    .next {
+    	*margin-right: 2em;
+    	*margin-left: -0.4em;
+    }
+
+    .viewall {
+    	*margin-left: 0;
+    }
